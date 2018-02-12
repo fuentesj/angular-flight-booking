@@ -1,0 +1,9 @@
+.row-full-height {
+	height: 100vh;
+}
+
+h1 {
+	position: absolute;
+	left: 40%;
+	top: 25%;
+}

@@ -1,0 +1,13 @@
+<a  (click)="onFlightSelected()"
+	class="list-group-item">
+	<div class="bmd-list-group-col">
+		<h5 class="mb-1">
+			{{ flight.airline }}
+		</h5>
+		<p class="list-group-item-text">
+			<strong>Origin:</strong> {{ flight.origin }} <strong>Destination:</strong> {{ flight.destination }}
+		<br/>
+			<strong>Departure:</strong> {{ flight.departureTime }} <strong>Arrival:</strong> {{ flight.arrivalTime }}
+		</p>
+	</div>
+</a>
