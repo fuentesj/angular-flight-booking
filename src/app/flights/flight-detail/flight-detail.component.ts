@@ -20,6 +20,6 @@ export class FlightDetailComponent implements OnInit {
 				(flight: Flight) => {
 					this.flight = flight;
 				}
-			)
+			);
 	}
 }

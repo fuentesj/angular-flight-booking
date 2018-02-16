@@ -14,7 +14,7 @@
     "deprecation": {
       "severity": "warn"
     },
-    "eofline": true,
+    "eofline": false,
     "forin": true,
     "import-blacklist": [
       true,
@@ -24,7 +24,8 @@
     "import-spacing": true,
     "indent": [
       true,
-      "spaces"
+      "tabs",
+      2
     ],
     "interface-over-type-literal": true,
     "label-position": true,

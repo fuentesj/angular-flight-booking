@@ -12,21 +12,21 @@ import { DatePickerComponent } from './flights/flight-search/date-picker-compone
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    FlightsComponent,
-    FlightListComponent,
-    FlightListItemComponent,
-    FlightDetailComponent,
-    FlightSearchComponent,
-    DatePickerComponent
-  ],
-  imports: [
-    BrowserModule,
-    MatDatepickerModule,
-    MatNativeDateModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		FlightsComponent,
+		FlightListComponent,
+		FlightListItemComponent,
+		FlightDetailComponent,
+		FlightSearchComponent,
+		DatePickerComponent
+	],
+	imports: [
+		BrowserModule,
+		MatDatepickerModule,
+		MatNativeDateModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
